@@ -612,7 +612,6 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="8a11b7df22322ab2814174e7745c863f" category="inline-link">Aviso sobre ONTAP</block>
   <block id="a65d010a2b24f9e4a0919b7faf52d022" category="list-text"><block ref="a65d010a2b24f9e4a0919b7faf52d022" category="inline-link-rx"></block></block>
   <block id="dc0f989b2f6bd3e7bf961fb6ea788d85" category="summary">En estas notas de la versión, se describen las nuevas funciones, las limitaciones y los problemas conocidos de Cloud Volumes ONTAP 9.13.0.</block>
-  <block id="f53ab0fd2ad9b3e113196ed1a6d6792a" category="doc">Notas de la versión de Cloud Volumes ONTAP 9.13.0</block>
   <block id="b889869e31827a33530d6fd02141fdb5" category="summary">Azure admite varias configuraciones de Cloud Volumes ONTAP.</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="doc">Configuraciones compatibles en Azure</block>
   <block id="9f1dc929787c1a2d05667987a87c083b" category="paragraph">Cloud Volumes ONTAP está disponible en Azure como un único sistema de nodo y como par de nodos de alta disponibilidad para tolerancia a fallos y operaciones no disruptivas.</block>
@@ -689,7 +688,6 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog de BlueXP</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Página principal de las notas de la versión</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">Limitaciones conocidas</block>
@@ -716,4 +714,7 @@ Parejas DE ALTA disponibilidad: 18 en un nodo ^1^</block>
   <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">La creación de volúmenes FlexVol hasta el tamaño máximo de 300 TiB se admite mediante System Manager y la interfaz de línea de comandos de ONTAP, a partir de Cloud Volumes ONTAP 9.12.1 P2 y 9.13.0 P2.</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">Los anchos de banda que se muestran en la tabla siguiente coinciden con los límites de AWS documentados para cada tipo de instancia. Estos límites no están completamente en línea con lo que puede proporcionar Cloud Volumes ONTAP. Para conocer el rendimiento esperado, consulte<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>.</block>
+  <block id="5b538967bf32882139a5639328eec6d7" category="doc">Notas de la versión de Cloud Volumes ONTAP 9.13.0</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Limitaciones del uso de extensiones de Azure VM</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP no es compatible con las extensiones de máquinas virtuales de Azure ni con aplicaciones de máquinas virtuales en una implementación. El uso de Cloud Volumes ONTAP en Azure con extensiones de VM provoca retrasos en las operaciones y NetApp recomienda evitarlos.</block>
 </blocks>
